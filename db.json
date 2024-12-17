@@ -1,0 +1,104 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "email": "user1@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "senha": "senha456"
+    },
+    {
+      "id": "6180",
+      "email": "albert@gmail.com",
+      "senha": "youtube"
+    },
+    {
+      "id": "955a",
+      "email": "ronaldo@gmail.com",
+      "senha": "ronaldinho"
+    },
+    {
+      "id": "25e2",
+      "email": "zeneto@gmail.com",
+      "senha": "zenetinho"
+    },
+    {
+      "id": "4283",
+      "email": "wevertonlbs00@gmail.com",
+      "senha": "dentinho"
+    },
+    {
+      "id": "c284",
+      "email": "vitnho@gmail.com",
+      "senha": "vitinho"
+    },
+    {
+      "id": "22e7",
+      "email": "wevertonlbs00@gmail.com",
+      "senha": "wevertonlima"
+    },
+    {
+      "id": "f1c9",
+      "email": "brow@gmail.com",
+      "senha": "3923"
+    },
+    {
+      "id": "1a43",
+      "email": "vitor@gmail.com",
+      "senha": "39237500"
+    }
+  ],
+  "register": [
+    {
+      "id": "7ce9",
+      "nome": "Alberte da Roma",
+      "email": "albert@gmail.com",
+      "senha": "youtube"
+    },
+    {
+      "id": "0265",
+      "nome": "Ronaldo Nazário do Santos",
+      "email": "ronaldo@gmail.com",
+      "senha": "ronaldinho"
+    },
+    {
+      "id": "9790",
+      "nome": "Zé Neto Alvaro",
+      "email": "zeneto@gmail.com",
+      "senha": "zenetinho"
+    },
+    {
+      "id": "00cb",
+      "nome": "Weverton Lima",
+      "email": "wevertonlbs00@gmail.com",
+      "senha": "dentinho"
+    },
+    {
+      "id": "ca43",
+      "nome": "Vitor Lima Barbosa da Silva",
+      "email": "vitnho@gmail.com",
+      "senha": "vitinho"
+    },
+    {
+      "id": "f947",
+      "nome": "Weverton Lima",
+      "email": "wevertonlbs00@gmail.com",
+      "senha": "wevertonlima"
+    },
+    {
+      "id": "5f49",
+      "nome": "Mano Brow",
+      "email": "brow@gmail.com",
+      "senha": "3923"
+    },
+    {
+      "id": "a401",
+      "nome": "Vitor Lima",
+      "email": "vitor@gmail.com",
+      "senha": "39237500"
+    }
+  ]
+}
