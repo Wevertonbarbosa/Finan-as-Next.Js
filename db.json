@@ -49,6 +49,11 @@
       "id": "1a43",
       "email": "vitor@gmail.com",
       "senha": "39237500"
+    },
+    {
+      "id": "00a7",
+      "email": "ruan_teste@gmail.com",
+      "senha": "9832n432"
     }
   ],
   "register": [
@@ -99,6 +104,12 @@
       "nome": "Vitor Lima",
       "email": "vitor@gmail.com",
       "senha": "39237500"
+    },
+    {
+      "id": "8019",
+      "nome": "Ruan Oliveira Martins Neto",
+      "email": "ruan_teste@gmail.com",
+      "senha": "9832n432"
     }
   ]
 }

@@ -21,6 +21,7 @@ import FormEntry from '@/src/components/form-entry/form-entry';
 
 export default function Dashboard() {
     const [title, setTitle] = useState('Entradas');
+    const [check, setCheck] = useState(false);
 
     return (
         <SidebarProvider
@@ -30,7 +31,10 @@ export default function Dashboard() {
                 } as React.CSSProperties
             }
         >
-            <AppSidebar onMenuTitle={(dados) => setTitle(dados)} />
+            <AppSidebar
+                onMenuTitle={(dados) => setTitle(dados)}
+                teste={check}
+            />
             <SidebarInset>
                 <header className="sticky top-0 flex shrink-0 items-center gap-2 border-b bg-background p-4 ">
                     <SidebarTrigger className="-ml-1 triggerButton" />

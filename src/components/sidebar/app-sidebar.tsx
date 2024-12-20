@@ -59,10 +59,11 @@ const data = {
 
 export function AppSidebar({
     onMenuTitle,
+    teste,
     ...props
 }: React.ComponentProps<typeof Sidebar> & {
     onMenuTitle: (title: string) => void;
-}) {
+} & { teste: boolean }) {
     const [activeItem, setActiveItem] = React.useState(data.navMain[0]);
     const { setOpen } = useSidebar();
 
@@ -117,6 +118,14 @@ export function AppSidebar({
                                                 setActiveItem(item);
                                                 setOpen(true);
                                                 onMenuTitle(item.title);
+                                                teste = item.isActive;
+                                                debugger;
+                                                if (item.isActive) {
+                                                    item.isActive = false;
+                                                } else {
+                                                    item.isActive = true;
+                                                }
+                                                console.log(item.isActive);
                                             }}
                                             isActive={
                                                 activeItem.title === item.title
